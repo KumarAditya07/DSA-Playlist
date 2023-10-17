@@ -13,4 +13,6 @@ int main() {
   int ans = fibonacci(n);
   cout<<ans;
   
+  return 0;
+  
 }
