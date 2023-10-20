@@ -5,7 +5,7 @@ using namespace std;
 
 vector<vector<int>> ans;
  set<vector<int>> st;
-// we are using set to avoid the repeation in vector  
+// we are using set to avoid the repeation in vector .
 
 void helper(int i, int n, vector<int> &nums, int tar, vector<int> &res) {
     if (tar == 0) {
